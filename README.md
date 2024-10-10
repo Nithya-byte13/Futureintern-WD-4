@@ -21,7 +21,6 @@ Implementation Details
 CSS Grid System: Utilized to arrange buttons in a neat and organized manner for an optimal user experience.
 
 JavaScript Logic:
-
 Event listeners capture user input from buttons.
 
 Conditional statements manage operations and determine results.
