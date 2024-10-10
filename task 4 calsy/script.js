@@ -31,7 +31,6 @@ function calculatePercentage() {
     }
 }
 
-// Keyboard support
 document.addEventListener('keydown', (event) => {
     const key = event.key;
     if (!isNaN(key) || ['+', '-', '*', '/'].includes(key)) {
@@ -47,5 +46,4 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-// Clear display on focus
 document.getElementById('display').addEventListener('focus', clearDisplay);
